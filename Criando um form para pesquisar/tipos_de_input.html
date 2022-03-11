@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Encontre</h1>
+    <form action="https://www.example.com">
+
+        <!-- Texto -->
+        <label for="fname">First name:</label>
+       <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+
+       <br>
+       <!-- Pesquisa de acprdp cp, a letra que você colocar-->
+       <input list="browsers">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+
+       <br><br>
+       
+       <!-- Campo se auto completa-->
+       <label for="fname">First name:</label>
+       <input type="text" id="fname" name="fname"><br><br>
+       <label for="lname">Last name:</label>
+       <input type="text" id="lname" name="lname"><br><br>
+       <label for="email">Email:</label>
+       <input type="email" id="email" name="email" autocomplete="off"><br><br>
+
+       <br><br>
+        
+       <!-- tipo telefone -->
+
+       <label for="phone">Enter a phone number:</label>
+  <input type="tel" id="phone" name="phone"
+  placeholder="(dd) xxxxx-xxxx"
+  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+
+      <br><br>
+
+      <!-- Para selecionar um arquivo-->
+
+      <label for="files">Select files:</label>
+      <input type="file" id="files" name="files" multiple>
+       
+
+    </form>
+    
+</body>
+</html>
